@@ -6,6 +6,10 @@
     background-color: red;
 }
 
+body{
+    background-color: black;
+}
+
 .container {
         height: 100vh;
         width: 100vw;
@@ -28,4 +32,10 @@
           ". . . . . . . . . . . ."
           ". . . . . . . . . . . .";
       }
+
+      .left-side {
+        
+            /* grid-column-start: 4; */
+          }
+          
     
