@@ -2,7 +2,7 @@ import React from 'react'
 
 const Leftside = () => {
   return (
-    <div className=' leftContent flex justify-center  h-[750px] w-[297px] mt-16 rounded-lg'>
+    <div className=' leftContent  h-[750px] w-[297px] mt-16 rounded-lg'>
     <div className='wrapper flex justify-center h-full w-full'>
     <div className=' profilePic h-36 w-40 rounded-[65px] mt-20 absolute'>
     </div>
