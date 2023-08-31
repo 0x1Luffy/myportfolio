@@ -8,6 +8,7 @@ const Leftside = () => {
     </div>
     <div className='myName h-10 w-full mt-64 text-center text-white font-bold text-2xl absolute'>CHETAN KESARE</div>
     <div className='myTagline h-8 w-36 mt-[315px] rounded-[50px]  text-center pt-1 text-white font-medium text-opacity-75'>WEB DEVELOPER</div>
+    <div className='lineStyle w-64 h-1 absolute mt-[380px] rounded-[50px]'></div>
     </div>
     </div>
   )
