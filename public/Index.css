@@ -89,3 +89,34 @@
         height: auto;
         vertical-align: middle;
     }
+
+    /* ==Resuable CSS Classes==*/
+
+    .container{
+        max-width: 1080px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+    }
+
+    .grid{
+        display: grid;
+    }
+
+    .section{
+        padding-top: 7rem;
+        padding-bottom: 2rem;
+
+    }
+
+    .section__title{
+        font-size: var(--h1-font-size);
+        margin-left: 0.875rem;
+        font-weight: var(--font-bold);
+        position: relative;
+        margin-bottom: 3.75rem;
+    }
+
+    .section__title::before{
+        content: '';
+    }
