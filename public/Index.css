@@ -119,4 +119,26 @@
 
     .section__title::before{
         content: '';
+        background: url(./assets/dots-bg.svg);
+        height: 2.25rem;
+        width: 2.25rem;
+        position: absolute;
+        left: -0.875rem;
+        top: -0.875rem;
+
     }
+
+    .btn {
+        padding: 0.75rem 2rem;
+        line-height: 1;
+        border-radius: 1.875rem;
+        box-shadow: 1.875rem;
+        border: 1px solid transparent;
+        color: #fff;
+        display: inline-block;
+        background-color: var(--first-color);
+        font-weight: var(--font-bold);
+
+    }
+
+    .btn:hover
