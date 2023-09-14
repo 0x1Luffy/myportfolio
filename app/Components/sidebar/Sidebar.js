@@ -2,7 +2,9 @@ import React from 'react'
 import "./Sidebar.css";
 const Sidebar = () => {
   return (
-    <div>Sidebar</div>
+   <aside className='aside'>
+    <a href='$home' className='nav__logo'></a>
+   </aside>
   )
 }
 
