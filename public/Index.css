@@ -30,4 +30,12 @@
     --font-medium:500;
     --font-semibold:600;
     --font-bold:700;
+
+    /* ==Box Shadow==*/
+
+    --shadow:0px 5px 20px 0px rgb(69 57 96 / 10%);
+
+    /* ==Border Radius==*/
+
+    --border-radius: 20px;
 }
