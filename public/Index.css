@@ -1,0 +1,17 @@
+/* ==GOOGLE FONTS==*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
+/* ==Variables==*/
+
+:root{
+    /*==Colors==*/
+    /* ==Color mode HSL==*/
+
+    --first-color: hsl(353,100%,65%);
+    --title-color: hsl(244, 24%, 26%);
+    --text-color: hsl(244, 16%,43%);
+    --body-color: hsl(258,60%,98%);
+    --container-color:#fff;
+    
+}
