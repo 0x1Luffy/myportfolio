@@ -40,6 +40,19 @@
     --border-radius: 20px;
 }
 
+/* Responsive Typography */
+
+@media screen and (max-width: 1024px) {
+    :root {
+        --h1-font-size: 1.75rem;
+        --h2-font-size:1.25rem;
+        --h3-font-size:1rem;
+        --normal-font-size: 0.938rem;
+        --small-font-size: 0.813rem; 
+        --smaller-font-size: 0.75rem;   
+    }
+}
+
     /* ==Base==*/
 
     *{
@@ -141,4 +154,18 @@
 
     }
 
-    .btn:hover
+    @keyframes button-push {
+        50%{
+            transform: scale(0.8);
+
+        }
+
+        100%{
+            transform: scale(1);
+        }
+    }
+    .btn:hover{
+        animation: button-push 0.3s linear 1;
+
+
+    }
