@@ -39,3 +39,53 @@
 
     --border-radius: 20px;
 }
+
+    /* ==Base==*/
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+
+    body,
+    button,
+    input,
+    textarea {
+        font-family: var(--body-font);
+        font-size: var(--normal-font-size);
+    }
+
+    body{
+        background-color: var(--body-color);
+        line-height: 1.7;
+        color: var(--text-color);
+    }
+
+    h1,h2,h3{
+        color: var(--title-color);
+        font-weight: var(--font-semibold);
+        line-height: 1.2;
+    }
+
+    ul{
+        list-style: none;
+    }  
+    
+    a{
+        text-decoration: none;
+    }
+    button{
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+    }
