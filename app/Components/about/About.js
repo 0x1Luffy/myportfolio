@@ -35,48 +35,38 @@ const About = () => {
           </div>
 
           <div className='skills__bar'>
-            <span className='skills__percentage'></span>
+            <span className='skills__percentage development'></span>
           </div>
         </div>
 
         <div className='skills__data'>
           <div className='skills__titles'>
-            <h3 className='skills__name'></h3>
-            <span className='skills__number'></span>
+            <h3 className='skills__name'>UI/UX Designing</h3>
+            <span className='skills__number'>80%</span>
           </div>
 
           <div className='skills__bar'>
-            <span className='skills__percentage'></span>
+            <span className='skills__percentage ui__design'></span>
           </div>
         </div>
 
         <div className='skills__data'>
           <div className='skills__titles'>
-            <h3 className='skills__name'></h3>
-            <span className='skills__number'></span>
+            <h3 className='skills__name'>Photography</h3>
+            <span className='skills__number'>60%</span>
           </div>
 
           <div className='skills__bar'>
-            <span className='skills__percentage'></span>
+            <span className='skills__percentage photography'></span>
           </div>
         </div>
-
-        <div className='skills__data'>
-          <div className='skills__titles'>
-            <h3 className='skills__name'></h3>
-            <span className='skills__number'></span>
-          </div>
-
-          <div className='skills__bar'>
-            <span className='skills__percentage'></span>
-          </div>
-        </div>
-
 
       </div>
 
     </div>
     </div>
+
+    
 
     </section>
   )
