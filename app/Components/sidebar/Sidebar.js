@@ -1,3 +1,4 @@
+
 import React from 'react';
 import "./Sidebar.css";
 import Logo from "../../assests/logo.svg";
@@ -50,10 +51,9 @@ const Sidebar = () => {
     </nav>
 
     <div className='nav__footer'>
-
       <span className='copyright'>&copy; 2023 - 2024.</span>
-    
     </div>
+
    </aside>
   )
 }
