@@ -15,5 +15,20 @@
 
 .nav___list{
     display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    
+}
 
+.nav__link {
+    font-size: 1.5rem;
+    color: var(--title-color);
+    font-weight: var(--font-bold) ;
+}
+
+.copyright {
+    color: hsl(245, 15%, 65%);
+    font-size: var(--small-font-size);
+    transform: rotate( -180deg);
+    writing-mode: vertical-rl;
 }
