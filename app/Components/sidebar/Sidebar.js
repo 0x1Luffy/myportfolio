@@ -5,33 +5,42 @@ import Logo from "../../assests/logo.svg";
 const Sidebar = () => {
   return (
    <aside className='aside'>
-    <a href='$home' className='nav__logo'>
+    <a href='#home' className='nav__logo'>
     <img src={Logo} alt='sideLogo' />
     </a>
+
     <nav className='nav'>
       <div className='nav__menu'>
       <ul className='nav__list'>
         <li className='nav__item'>
 
           <a href='#home' className='nav__link'>
-             <i className='icon-home'></i>
+             <i className="icon-home"></i>
           </a>
         </li>
 
         <li className='nav__item'>
-          <a href='' className='nav__link'></a>
+          <a href='#about' className='nav__link'>
+          <i className="icon-user-following"></i>
+          </a>
         </li>
 
         <li className='nav__item'>
-          <a href='' className='nav__link'></a>
+          <a href='#contact' className='nav__link'>
+          <i className="icon-briefcase"></i>
+          </a>
         </li>
 
         <li className='nav__item'>
-          <a href='' className='nav__link'></a>
+          <a href='#portfolio' className='nav__link'>
+          <i className="icon-graduation"></i>
+          </a>
         </li>
 
         <li className='nav__item'>
-          <a href='' className='nav__link'></a>
+          <a href='#resume' className='nav__link'>
+          <i className="icon-layers"></i>
+          </a>
         </li>
 
 
@@ -39,6 +48,12 @@ const Sidebar = () => {
 
       </div>
     </nav>
+
+    <div className='nav__footer'>
+
+      span
+    
+    </div>
    </aside>
   )
 }
