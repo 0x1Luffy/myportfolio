@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Home.css";
 import HeaderSocials from './HeaderSocials';
+import ScrollDown from './ScrollDown';
 
 const Home = () => {
   return (
@@ -13,6 +14,9 @@ const Home = () => {
     </span>
 
     <HeaderSocials/>
+
+    <a href='' className='btn'>Hire Me</a>
+    <ScrollDown/>
    </div>
 
    </section>
