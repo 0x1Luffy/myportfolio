@@ -2,6 +2,7 @@ import React from 'react';
 import "./Home.css";
 import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
+import Shapes from './Shapes';
 
 const Home = () => {
   return (
@@ -18,6 +19,8 @@ const Home = () => {
     <a href='' className='btn'>Hire Me</a>
     <ScrollDown/>
    </div>
+
+   <Shapes/>
 
    </section>
   )

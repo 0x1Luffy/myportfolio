@@ -91,3 +91,71 @@
     animation: ani-mouse 2s linear infinite;
 
 }
+
+.shapes {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.shape{
+   position: absolute; 
+}
+
+.s1 {
+  left: 2%;
+  top: 10%;  
+}
+
+.s2 {
+    left: 18%;
+    top: 30%;  
+  }
+
+  .s3 {
+    left: 5%;
+    bottom: 30%;
+  }
+
+  .s4 {
+    left: 2%;
+    bottom: 10%;
+  }
+
+  .s5 {
+    left: 44%;
+    top: 10%;
+  }
+
+  .s6 {
+    left: 36%;
+    bottom: 10%;
+  }
+
+  .s7 {
+   top: 20%;
+   right: 25%;
+  }
+
+  .s8{
+    right: 24%;
+    bottom: 20%;
+
+  }
+
+  .s9{
+    right: 2%;
+    top: 10%;
+  }
+
+  .s10{
+    top: 45%;
+    right: 11%;
+  }
+
+  .s11{
+    bottom: 10%;
+    right: 2%;
+  }
