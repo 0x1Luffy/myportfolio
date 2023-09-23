@@ -22,25 +22,25 @@ const Sidebar = () => {
 
         <li className='nav__item'>
           <a href='#about' className='nav__link'>
-          <i className="icon-user-following"></i>
-          </a>
-        </li>
-
-        <li className='nav__item'>
-          <a href='#contact' className='nav__link'>
-          <i className="icon-briefcase"></i>
-          </a>
-        </li>
-
-        <li className='nav__item'>
-          <a href='#portfolio' className='nav__link'>
-          <i className="icon-graduation"></i>
+          <i className="icon-user"></i>
           </a>
         </li>
 
         <li className='nav__item'>
           <a href='#resume' className='nav__link'>
-          <i className="icon-layers"></i>
+          <i className="icon-graduation"></i>
+          </a>
+        </li>
+
+        <li className='nav__item'>
+          <a href='#work' className='nav__link'>
+          <i className="icon-trophy"></i>
+          </a>
+        </li>
+
+        <li className='nav__item'>
+          <a href='#contact' className='nav__link'>
+          <i className="icon-paper-plane"></i>
           </a>
         </li>
 
@@ -52,6 +52,7 @@ const Sidebar = () => {
 
     <div className='nav__footer'>
       <span className='copyright'>&copy; 2023 - 2024.</span>
+      <span className='copyright'>&copy; Chetan-Kesare.</span>
     </div>
 
    </aside>

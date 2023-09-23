@@ -8,11 +8,12 @@ import Portfolio from './Components/portfolio/Portfolio';
 import Contact from './Components/contact/Contact';
 
 
+// Here refer to page as App Layout
 const page = () => {
   return(
     <>
       <Sidebar/>
-      < main className='main'>
+      <main className='main'>
       <Home/>
       <About/>
       <Resume/>

@@ -33,8 +33,8 @@
     transition: .3s;
 }
 
-.home__social-link:hover{
-    color: hsl(43, 100%, 68%)
+.home__social-link:hover {
+    color: hsl(43, 100%, 68%);
 }
 
 .scroll__down{
