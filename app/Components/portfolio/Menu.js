@@ -14,7 +14,7 @@ const Menu =[
     id:2,
     Image: Work2,
     title:"",
-    category: "Design"
+    category: "Art"
   },
   {
     id:3,
