@@ -1,0 +1,35 @@
+.resume__container {
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1.875rem;
+
+}
+
+.timeline {
+    background-color: var(--container-color);
+    padding: 1.875rem;
+    border-radius: var(--border-radius);
+    position: relative;
+    box-shadow: var(--shadow);
+}
+
+.timeline__item{
+    position: relative;
+    padding-left: 3.125rem;
+    padding-bottom: 3.123rem;
+}
+
+.timeline__item:last-child
+{
+    padding-bottom: 0%;
+}
+
+.timeline__item::before{
+    content: '';
+    width: 1px;
+    height: 100%;
+    background-color: var(--first-color);
+    position: absolute;
+    left: .25rem;
+    top: 0%;
+
+}
