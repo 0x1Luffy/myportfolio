@@ -12,13 +12,13 @@ const Menu =[
   },
   {
     id:2,
-    Image: Work1,
+    Image: Work2,
     title:"",
     category: "Design"
   },
   {
     id:3,
-    Image: Work1,
+    Image: Work3,
     title:"",
     category: "Design"
   },

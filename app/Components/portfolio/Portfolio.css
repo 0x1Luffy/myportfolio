@@ -1,0 +1,38 @@
+.work__filters {
+    display: flex;
+    align-items: center;
+    column-gap: 1.875rem;
+    margin-top: 2.5rem;
+}
+
+.work__item {
+    cursor: pointer;
+    font-weight: var(--font-bold);
+    transition: .3s;
+}
+
+.work__items:hover {
+    color: var(--first-color);
+}
+
+.work__container {
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.875rem;
+}
+
+.work__card{
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.work__mask {
+    background: #6c6ce5;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    
+}
