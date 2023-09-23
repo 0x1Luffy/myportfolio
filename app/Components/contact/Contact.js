@@ -20,8 +20,16 @@ const Contact = () => {
             <div className='contact__form-div'>
               <input type='email' className='contact__form-input' placeholder='Insert Your Email'/>
             </div>
-
           </div>
+
+          <div className='contact__form-div'>
+              <input type='text' className='contact__form-input' placeholder='Insert Your Subject'/>
+            </div>
+
+            <div className='contact__form-div'>
+              <textarea name='' id='' cols={30} rows={10} className='contact__form-input' placeholder='Write Your message'></textarea>
+            </div>
+             <button className='btn'>Send Message</button>
         </form>
       </div>
     </section>
