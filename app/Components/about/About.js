@@ -1,5 +1,6 @@
 import React from 'react';
 import "./About.css"
+import AboutBox from './AboutBox';
 
 const About = () => {
   return (
@@ -9,18 +10,14 @@ const About = () => {
       </h2>
 
     <div className='about__container grid'>
-    <img src= "" alt='' className='about__img'/>
+    <img src= "https://i.ibb.co/k89WFzY/about-us-pic.png" alt='' className='about__img'/>
 
     <div className='about__data grid'>
       <div className='about__info'>
         <p className='about__description'>
           I am very enthusiastic of new technologies and looking for a
           challenging and innovative career in the IT field, which will enable
-          me to utilize and enhance my skills in software development and UX
-          designing.
-
-
-
+          me to utilize and enhance my skills in software development and UX designing.
           <a href='' className='btn'>Download Resume</a>
         </p>
       </div>
@@ -66,7 +63,7 @@ const About = () => {
     </div>
     </div>
 
-    
+    <AboutBox/>
 
     </section>
   )
