@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Portfolio.css";
 import Menu from './Menu';
 
 const Portfolio = () => {
+
+  const [Items,setItems] = useState(Menu)
   return (
     <section className='work container section' id='work'>
       <h2 className='section__title'>Recent Works</h2>
