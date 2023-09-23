@@ -10,7 +10,7 @@ const Menu =[
     id:2,
     Image: "",
     title:"",
-    category: "Art"
+    category: "Design"
   },
   {
     id:3,
@@ -22,13 +22,25 @@ const Menu =[
     id:4,
     Image: "",
     title:"",
-    category: "Design"
+    category: "Applications"
   },
   {
     id:5,
     Image: "",
     title:"",
-    category: "Design"
+    category: "Applications"
+  },
+  {
+    id:6,
+    Image: "",
+    title:"",
+    category: "Applications"
+  },
+  {
+    id:7,
+    Image: "",
+    title:"",
+    category: "Case Study"
   },
 ]
 export default Menu
