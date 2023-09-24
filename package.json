@@ -2,6 +2,8 @@
   "name": "myfolio",
   "version": "0.1.0",
   "private": true,
+  "author": {"name": "Chetan Kesare"},
+  "github": {"link":"https://github.com/0x1Luffy"},
   "scripts": {
     "dev": "next dev",
     "build": "next build",
