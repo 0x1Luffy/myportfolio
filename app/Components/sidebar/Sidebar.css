@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: space-between;
     z-index: 10;
+    transition: .3s;
 }
 
 .nav___list{
@@ -42,5 +43,34 @@
     position: fixed;
     top: 1.25rem;
     left: 1.875rem;
-    
+    cursor: pointer;
+    height: 40px;
+    width: 45px;
+    background-color: var(--body-color);
+    border: 1px solid #e8dfec;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: .3s;
+
 }
+
+@media screen and (max-width:1024px) {
+    .aside{
+         left:  -110px;
+    } 
+
+    .nav___toggle {
+        display: flex;
+    }
+
+    .nav___toggle-open {
+        left:140px;
+
+    }
+
+    .show-menu {
+        left: 0%;
+    }
+}  
