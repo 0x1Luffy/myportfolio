@@ -23,7 +23,7 @@ const Home = () => {
 
    <Shapes/>
 
-   </section>
+   </section> 
   )
 }
 

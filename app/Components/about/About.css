@@ -85,6 +85,8 @@
 
 .about__boxes {
     grid-template-columns: repeat(4,1fr);
+    display: flex;
+    justify-content: center;
     column-gap: 1.875rem;
     margin-top: 4.35rem;
 }
