@@ -5,7 +5,8 @@ import "./Sidebar.css";
 
 const Sidebar = () => {
   return (
-   <aside className='aside'>
+   <>
+    <aside className='aside'>
     <a href='#home' className='nav__logo'>
     <img src='https://i.ibb.co/RC8J1Xw/c.png' alt='sideLogo' />
     </a>
@@ -56,6 +57,12 @@ const Sidebar = () => {
     </div>
 
    </aside>
+
+
+   <div className='nav__toggle'>
+    <i className='icon-menu'></i>
+   </div>
+   </>
   )
 }
 
