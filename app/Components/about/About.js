@@ -15,7 +15,7 @@ const About = () => {
     <div className='about__data grid'>
       <div className='about__info'>
         <p className='about__description'>
-        I'm eager to pursue a dynamic career in IT, leveraging my software development and UX design skills in challenging and innovative projects.
+        I am eager to pursue a dynamic career in IT, leveraging my software development and UX design skills in challenging and innovative projects.
         </p>
         <a href='https://drive.google.com/file/d/1JI7tLvrBHkr6VCBcZJ2RlLq1q4l1_xPt/view?usp=sharing' className='btn' download={"Chetan's Resume"}>Download Resume</a>
       </div>

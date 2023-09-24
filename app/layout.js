@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
 
     </head>
       <body>{children}
-      <script src="https://kit.fontawesome.com/34b8159489.js" crossorigin="anonymous"></script>
+      <script defer src="https://kit.fontawesome.com/34b8159489.js" crossorigin="anonymous"></script>
       </body>
     </html>
   )
