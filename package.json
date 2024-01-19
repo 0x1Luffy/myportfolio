@@ -2,8 +2,12 @@
   "name": "myfolio",
   "version": "0.1.0",
   "private": true,
-  "author": {"name": "Chetan Kesare"},
-  "github": {"link":"https://github.com/0x1Luffy"},
+  "author": {
+    "name": "Chetan Kesare"
+  },
+  "github": {
+    "link": "https://github.com/0x1Luffy"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,6 +15,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.1.2",
     "autoprefixer": "10.4.15",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
